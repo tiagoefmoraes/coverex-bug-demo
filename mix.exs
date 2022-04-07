@@ -31,7 +31,7 @@ defmodule CoverexBugDemo.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:spry_cov, "~> 0.2.0", only: :test}
+      {:spry_cov, "0.3.0", only: :test}
     ]
   end
 end

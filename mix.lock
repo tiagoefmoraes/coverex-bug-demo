@@ -7,6 +7,6 @@
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], [], "hexpm", "69b09adddc4f74a40716ae54d140f93beb0fb8978d8636eaded0c31b6f099f16"},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], [], "hexpm", "7a4c8e1115a2732a67d7624e28cf6c9f30c66711a9e92928e745c255887ba465"},
   "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], [], "hexpm", "519bc209e4433961284174c497c8524c001e285b79bdf80212b47a1f898084cc"},
-  "spry_cov": {:hex, :spry_cov, "0.2.0", "01873f451ff6055b7f42b16822d643357aaf6f30b05c905afb71b4b976237608", [:mix], [], "hexpm", "960b6321a16fcfcd21e44fbde35a85546f4b8beaa80e3e5d66a6624838e89f49"},
+  "spry_cov": {:hex, :spry_cov, "0.3.0", "5ea412b2ddc05f5564646bad3ac9373e5e998af59ce01b7e17fec233f141d158", [:mix], [], "hexpm", "8e1a3cc0248dfea1a4df29f741e7991b816459903a63877178d118b160d122df"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0", "edee20847c42e379bf91261db474ffbe373f8acb56e9079acb6038d4e0bf414f", [:make, :rebar], [], "hexpm", "6c0e0d857fdb031ba67b0a791202bee116bea2313db7b649839000847591ba1e"},
 }
