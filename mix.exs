@@ -6,10 +6,10 @@ defmodule CoverexBugDemo.Mixfile do
       app: :thing,
       version: "0.1.0",
       elixir: "~> 1.3",
-      build_embedded: Mix.env == :prod,
-      start_permanent: Mix.env == :prod,
+      build_embedded: Mix.env() == :prod,
+      start_permanent: Mix.env() == :prod,
       deps: deps(),
-      test_coverage: [tool: Coverex.Task]
+      test_coverage: [tool: SpryCov]
     ]
   end
 
@@ -31,7 +31,7 @@ defmodule CoverexBugDemo.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:coverex, "~> 1.4.10", only: :test},
+      {:spry_cov, "~> 0.2.0", only: :test}
     ]
   end
 end
